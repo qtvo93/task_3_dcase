@@ -2,27 +2,24 @@
 
 **Goals:**
 - Complete a detailed review of the challenge description and dataset.
-
-**DoD:**
+**DoD:** Short summary
+  
 - Begin developing a basic understanding of the provided sample data.
+**DoD:** Summarize dataset attributes and insights
 
-**DoD:**
 - Read from the previous year’s work to see what other researchers did for preprocessing.
-
-**DoD:**
-- Written summary
+**DoD:** Written summary
 
 ## Week 2 (Dec 25-31): Data Preprocessing and Exploration
 
 **Goals:**
 - Implement data loading and preprocessing scripts for both FOA and MIC formats.
+**DoD:** Being able to load the data in and pre-process using basic data augmentations
 
-**DoD:**
 - Investigate and/or Visualize audio data for initial insights.
+**DoD:** Document any insights and importan finds, plus visualize the data (for example: plot the spectrogram, plot the raw signal, ...)
 
-**DoD:**
 - Read from previous year works to see what others did for training and advanced set up.
-
 **DoD:**
 - Written summary
 
