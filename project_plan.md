@@ -22,7 +22,7 @@
 
 - Investigate and/or Visualize audio data for initial insights.
   
-**DoD:** Document any insights and importan finds, plus visualize the data (for example: plot the spectrogram, plot the raw signal, ...)
+**DoD:** Document any insights and important finds, plus visualize the data (for example: plot the spectrogram, plot the raw signal, ...)
 
 - Read from previous year works to see what others did for training and advanced set up.
   
