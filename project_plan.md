@@ -11,7 +11,7 @@
 
 - Read from the previous year’s work to see what other researchers did for preprocessing.
   
-**DoD:** Written summary
+**DoD:** Written summary of findings
 
 ## Week 2 (Dec 25-31): Data Preprocessing and Exploration
 
@@ -26,8 +26,7 @@
 
 - Read from previous year works to see what others did for training and advanced set up.
   
-**DoD:**
-- Written summary
+**DoD:** Written summary of findings
 
 ## Week 3-4 (Jan 1-14): Model Development (Audio-only Track)
 
