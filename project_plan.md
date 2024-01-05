@@ -13,6 +13,8 @@
   
 **DoD:** Written summary of findings
 
+**Status:** ON TRACK. All 3 goals completed
+
 ## Week 2 (Dec 25-31): Data Preprocessing and Exploration
 
 **Goals:**
@@ -28,12 +30,17 @@
   
 **DoD:** Written summary of findings
 
+**Status:** ON TRACK. All 3 goals completed
 
 ## Week 3-4 (Jan 1-14): Model Development (Audio-only Track)
 
 **Goals:**
 - Design and use a popular network architecture for audio-only track.
 - Train the model and study the outcome.
+
+**DoD:** At least being able to replicate the baseline, and research a compatible simple model that can be used to further develop. Ultimate goal is to train on that model.
+
+**Status:** WORK IN PROGRESSS
 
 ## Week 5-6 (Jan 15-28): Model Enhancement and Evaluation (Audio Only)
 
