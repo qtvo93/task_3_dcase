@@ -1,6 +1,6 @@
-** Week 1 (Dec 18-24): Understanding the Problem and Dataset
+## Week 1 (Dec 18-24): Understanding the Problem and Dataset
 
-*** Complete a detailed review of the challenge description and dataset.
+*** Complete a detailed review of the challenge description and dataset. *** 
 
 The dataset included multichannel recordings from two sites with spatial and temporal annotations for target sound classes. Compared to the previous version, STARSS23 added 4 hours of material, 360° video recordings, and distance labels for annotated sound events.
 
@@ -17,7 +17,7 @@ Audio-only track focuses on SELD labels with multichannel audio input.
 Audiovisual track incorporates 360° video recordings during both training and evaluation.
 
 
-*** Begin developing a basic understanding of the provided sample data.
+*** Begin developing a basic understanding of the provided sample data. *** 
 
 Recording Setup:
 
@@ -52,7 +52,7 @@ Training and evaluation sets include recordings from both sites, with additional
 Audio recordings have a sampling rate of 24kHz and 16-bit depth.
 Video recordings have a resolution of 1920x960 and a frame rate of 29.97 fps.
 
-*** Read from the previous year’s work to see what other researchers did for preprocessing.
+*** Read from the previous year’s work to see what other researchers did for preprocessing. *** 
 
 No. 1 Team
 
