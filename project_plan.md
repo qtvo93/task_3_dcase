@@ -40,9 +40,18 @@
 
 **DoD:** At least being able to replicate the baseline, and research a compatible simple model that can be used to further develop. Ultimate goal is to train on that model.
 
-**Status:** WORK IN PROGRESSS
+**Status:** Successuflly Replicated the Baseline system with FoA + Multi-ACCDOA
 
-## Week 5-6 (Jan 15-28): Model Enhancement and Evaluation (Audio Only)
+## Week 5-6 (Jan 15-28): Continue The Model Development (Audio Only)
+
+**Goals:**
+- Get a good undestanding of how the baseline extract features across different set up
+- Study the conformer and Event Independent Network V2 (https://arxiv.org/pdf/2010.13092.pdf)
+- Which feature extraction and training set up we should use?
+
+**Status:** We will implement our first target model with FOA + Multi-ACCDOA to have a similar set up with the base line system
+
+## Week 7-13 (Jan 29 - March 17): Model Enhancement and Evaluation (Audio Only)
 
 **Goals:**
 - Add our own tweak to the model if works well; otherwise, implement new components if possible.
@@ -50,19 +59,29 @@
 - Experiment to see if we can train with additional data.
 - Perform fine-tuning based on evaluation results.
 
-## Week 7-8 (Jan 29-Feb 11): Documentation and Submission Preparation (Audio Only)
+## Week 14 (March 18 -  March 24): Download the new Data (expected to be uploaded on March 15)
+
+**Goals:**
+- Download data successfully and being able to extract feature and test-train our model with the new data
+
+## Week 15 - Week 19 (March 25 - April 28): Train the developed Model with the new data (Audio Only)
+
+**Goals:**
+- Train and fine-tune our model with the new data for this year
+
+## Week 19 (April 28): Documentation and Submission Preparation (Audio Only)
 
 **Goals:**
 - Document the implemented audio-only system, including model architecture and training strategies.
 - Prepare submission files for the audio-only track.
 
-## Week 9-10 (Feb 12-25): Post-Challenge Analysis (Audio Only)
+## Week 20 (April 29 - May 5): Post-Challenge Analysis (Audio Only)
 
 **Goals:**
 - Analyze challenge results for the audio-only track.
 - Document lessons learned and identify potential improvements.
 
-## Week 11-21 (Feb 26-May 15): Buffer and Final Adjustments
+## Week 21 (May 6 - May 15): Buffer and Final Adjustments
 
 **Goals:**
 - Use the remaining weeks as a buffer for any unexpected challenges.
