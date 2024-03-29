@@ -1,0 +1,9 @@
+The tPIT function is a custom loss function that implements the Time-domain Permutation Invariant Training (tPIT) strategy for sound event detection (SED) and direction of arrival (DOA) tasks. This function is designed to handle the case where there are three possible sound sources, hence six possible permutations of the sources.
+
+The function takes as input two dictionaries, pred and target, each containing two keys: 'sed' and 'doa'. The values associated with these keys are tensors representing the predicted and target values for the SED and DOA tasks, respectively. The dimensions of these tensors are [batch_size, T, num_tracks=3, num_classes] for 'sed' and [batch_size, T, num_tracks=3, doas=3] for 'doa'.
+
+The function first generates all possible permutations of the three tracks. For each permutation, it permutes the target tensors accordingly and calculates the SED and DOA losses using the provided loss functions self.losses_pit[0] and self.losses_pit[1]. The losses are stored in the losses_sed and losses_doa lists, and the permuted targets are stored in the targets_flipped list.
+
+After calculating the losses for all permutations, the function finds the index of the permutation with the smallest total loss (SED loss + DOA loss). It then returns the SED loss, DOA loss, and updated target corresponding to this permutation.
+
+The updated target is the target tensor permuted according to the permutation with the smallest loss. This means that the order of the tracks in the updated target may be different from the original order in the input target tensor. This is the key idea behind the tPIT strategy: by considering all possible permutations of the tracks, the function finds the permutation that best matches the predicted values, thus making the training process invariant to the order of the tracks.
